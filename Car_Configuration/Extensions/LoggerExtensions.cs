@@ -9,7 +9,7 @@ public static class LoggerExtensions
     {
         var logger = new LoggerConfiguration()
             .WriteTo.Console()
-            .WriteTo.TeleSink("6125388892:AAGCbqi0A2gFYaJPtxMfIZUCcCdJlHZ-kSQ", "2039076116", minimumLevel: Serilog.Events.LogEventLevel.Error)
+            .WriteTo.TeleSink("BotToken", "ChatId", minimumLevel: Serilog.Events.LogEventLevel.Error)
             .CreateLogger();
 
         builder.Logging.AddSerilog(logger);
