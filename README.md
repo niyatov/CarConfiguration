@@ -1,2 +1,2 @@
 # Foydalanilgan narsalar
-aspnetcore, blazor, efcore sqlserver, asp.net identity, xunit, fluentvalidation, serilog, mapster, memorycache, corspolicy, custom exception classes, custom action filters, custom middleware, options pattern, repository pattern, unit of work pattern
+asp.net mvc, efcore sqlserver, asp.net identity, data seeding, fluentvalidation, serilog, mapster, custom exception class, custom middleware
